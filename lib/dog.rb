@@ -7,4 +7,8 @@ class Dog
     @@all << name
   end
 
+  def self.clear_all
+    @@all = []
+  end
+
 end
